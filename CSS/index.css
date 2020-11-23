@@ -1,0 +1,119 @@
+*
+{
+    margin:0;
+    padding: 0;
+    width: 100%;
+}
+header
+{
+    background: url(D:/wallpaper/Hogwarts.jpg);
+    width: 100%;
+    height: 100vh;
+}
+nav
+{
+    background: rgba(163, 157, 157, 0.5);
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+}
+.logo 
+{
+    color: rgb(0, 0, 0);
+    font-family:chiller;
+    float: left;
+    width: 11%;
+    margin-left: 40px;
+    text-shadow: 3px 3px 2px white, 2px 2px 2px rgb(241, 235, 235), 2px 2px 2px rgb(216, 205, 205), 2px 2px 2px rgb(233, 35, 35);
+    font-size: 40px;
+}
+.logo h1:hover
+{
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6,0 0 20px #0073e6,0 0 25px #0073e6, 0 0 30px #0073e6,0 0 35px #0073e6;
+    cursor: pointer;
+}
+.searchbar
+{
+    color: black;
+    float: left;
+    width: 30%;
+    margin-left:200px;
+}
+.searchbox
+{
+    width: 75%;
+    float: left;
+    border: 0;
+    margin-top: 26.5px;
+    height: 30px;
+    border-radius: 15px;
+    background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0.6));
+}
+.searchbutton
+{
+    width: 25%;
+    border: 0;
+    height: 30px;
+    border-radius: 15px;
+    background: rgb(221, 218, 218);
+    font-size: 16px;
+    /*background: linear-gradient(to right, rgba(255,255,255,1),  rgba(255,255,255,0.3));;*/
+    
+}
+.searchbox, .searchbutton:focus
+{
+    outline: none;
+    
+}
+.searchbox, .searchbutton:hover
+{
+    cursor: pointer;
+}
+.menu
+{
+    
+    float: right;
+    width: 30%;
+}
+.menu ul li
+{
+    list-style: none;
+    display: inline-block; 
+    text-align: center; 
+    width: 19.3%;
+}
+.menu ul li:hover
+{
+    background: orange;
+}
+
+.menu ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+}
+.para
+{
+    font-family:Lucida Sans;
+    color: white;
+    font-size: 16px;
+    color: rgb(0,0,0);
+    margin-top: 250px;
+    margin-left: 20px;
+}
+.para h1
+{
+    margin-left: 60px;
+}
+.para h2
+{
+   margin-left: 6px;
+}
+.para h2 span
+{
+    font-family: chiller;
+    font-size: 50px;
+}
+ 
